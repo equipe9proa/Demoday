@@ -1,0 +1,74 @@
+body{
+	margin:4; 
+	font-family: 'Cabin Sketch', cursive;
+}
+#menu ul{
+	margin:0;
+	background-color:#BF5202;
+	list-style:none;
+}
+#menu ul li{
+	display:inline;
+}
+#menu ul li a{
+	padding:8px 15px;
+	display:inline-block;
+	color: white;
+	text-decoration:none;
+}
+#menu ul li a:hover{
+	color:#ABEDF5;
+}
+img{
+	width: 120px;
+}
+.bg-azulclaro{
+	background: #99ccff;
+}
+.bg-laranja{
+	background: #BF5202;
+}
+li{
+	font-size:25px;
+}
+h1{
+	color: #99ccff;
+}
+h3{
+	color: #99ccff;
+}
+.h1, h1 {
+    font-size: calc(2rem + 2vw);
+}
+#imgnossotime{
+	width: 508px; 
+	height: 408px;
+	float: left;
+	margin-right: 6px;
+}
+p{
+	font-size: 23px;
+	text-align: justify;
+}
+#textorodape{
+	font-size: 15px;
+	color: white;
+}
+.footer{
+	height: 200px;
+	background:#BF5202;
+}
+#titulorodape{
+	color: white;
+}
+#livrosdoados{
+	font-size: 20px;
+	text-align: all;
+}
+#doadoresimgs{
+	width: 200px; 
+	height: 180px;
+}
+#logosobrenos{
+	width: 300px;
+}
