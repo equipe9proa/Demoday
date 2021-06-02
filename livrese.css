@@ -29,7 +29,7 @@ img{
 	background: #BF5202;
 }
 li{
-	font-size:25px;
+	font-size:24px;
 }
 h1{
 	color: #99ccff;
@@ -55,7 +55,7 @@ p{
 	color: white;
 }
 .footer{
-	height: 200px;
+	height: 150px;
 	background:#BF5202;
 }
 #titulorodape{
@@ -71,4 +71,19 @@ p{
 }
 #logosobrenos{
 	width: 300px;
+}
+.frente{
+	display: block;
+}
+.flipped .frente{
+    display: none;
+}
+.fundo{
+	display: none;
+}
+.flipped .fundo{
+	display: block;
+}
+.image-flip{
+	display: inline;
 }
