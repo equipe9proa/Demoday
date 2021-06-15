@@ -1,0 +1,219 @@
+/*Configuração do menu*/
+#menu{
+	font-family: 'Cabin Sketch', cursive;
+}
+#menu ul{
+	margin:0;
+	background-color:#BF5202;
+	list-style:none;
+}
+#menu ul li{
+	display:inline;
+}
+#menu ul li a{
+	padding:8px 15px;
+	display:inline-block;
+	color: white;
+	text-decoration:none;
+}
+#menu ul li a:hover{
+	color:#ABEDF5;
+}
+#menu img{
+	width: 120px;
+}
+li{
+	font-size:24px;
+}
+/*------------------------------*/
+/*Cores dos backgrounds*/
+.bg-azulclaro{
+	background: #99ccff;
+}
+.bg-laranja{
+	background: #BF5202;
+}
+/*---------------------*/
+/*CSS DA ABA DOS LIVROS*/
+.livros{
+	width: 100%;
+	height: 300px;
+	margin-top: 3px;
+	margin-bottom: 3px;
+}
+.livros img{
+	width: 100%;
+	height: 100%;
+}
+/*----------------------*/
+/*CSS DOS FORMULÁRIOS*/
+input{
+	margin-top: 5px;
+}
+label{
+	margin-top: 3px;
+}
+.botao{
+	text-align: center;
+	text-decoration: none;
+}
+
+.middle{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
+.btn{
+  font-family: 'Sniglet', cursive;
+  position: relative;
+  display: block;
+  color: black;
+  font-size: 14px;
+  text-decoration: none;
+  margin: 30px 0;
+  border: 2px solid #ED8545;
+  padding: 14px 60px;
+  text-transform: uppercase;
+  overflow: hidden;
+  transition: 1s all ease;
+}
+.btn::before{
+  background: #ED8545;
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  z-index: -1;
+  transition: all 0.6s ease;
+}
+
+.btn1::before{
+  width: 0%;
+  height: 100%;
+}
+
+.btn1:hover::before{
+  width: 100%;
+}
+/*----------------------*/
+/*CSS DA ABA AJUDA*/
+.ajuda{
+	width: 90%;
+	height: auto;
+	background-color: #ED8545;
+	text-align: center;
+	overflow: hidden;
+	border: none;
+	margin-top: 10px;
+	text-transform: uppercase;
+	transition-duration: 1s;
+}
+.ajudap{
+	width: 90%;
+	height: auto;
+	background-color: #99CCFF;
+	display: none;
+	text-transform: uppercase;
+}
+.ajuda:hover{
+	background:#53a7ea;
+	transition: 1s;
+}
+.obg{
+	width: 100%;
+	height: auto;
+	background-color: lightblue;
+	margin-top: 10px;
+	border-radius: 10px;
+	border-radius: 10px;
+	border-style: solid;
+	border-color: #ED8545;
+	border-bottom: 5px;
+	border-left: 5px;
+	font-size: 20px;
+	padding: 5px;
+	margin-bottom: 10px;
+}
+/*----------------------------------------*/
+/*CONFIGURAÇÕES DE OUTROS ELEMENTOS*/
+body{
+	margin:4; 
+}
+.caixa_titulo{
+	width: 50%;
+	height: auto;
+	background-color: lightblue;
+	text-align: center;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	border-radius: 10px;
+	border-style: solid;
+	border-color: #ED8545;
+	border-bottom: 5px;
+	border-left: 5px;
+}
+.row{
+font-family: 'Sniglet', cursive;
+}
+a{
+	text-decoration: none;
+}
+/*-----------------------------------*/
+/*CONFIGURAÇÃO DO RODAPÉ*/
+#textorodape{
+	font-size: 15px;
+	color: white;
+}
+.footer{
+	height: 150px;
+	background:#BF5202;
+	font-family: 'Sniglet', cursive;
+	text-align: center;
+}
+#titulorodape{
+	color: white;
+}
+/*-------------------------*/
+/*ABA LIVROS INDIVIDUAIS CONFIGURAÇÃO*/
+.container2 {
+  display: flex;
+  width: 100%;
+  padding: 4% 2%;
+  box-sizing: border-box;
+  height: 100vh;
+  background-color: #ED8545;
+  border-radius: 10px;
+}
+
+.box {
+  flex: 1;
+  overflow: hidden;
+  transition: .5s;
+  margin: 0 2%;
+  line-height: 0;
+  border: solid 5px lightblue;
+  border-radius: 5px;
+}
+
+.box > img {
+  width: 100%;
+  height: calc(100% - 10vh);
+  object-fit: cover; 
+  transition: .5s;
+}
+
+.box > span {
+  font-size: 3.8vh;
+  display: block;
+  text-align: center;
+  height: 10vh;
+  line-height: 2.6;
+  background-color: lightblue;
+}
+
+.box:hover { flex: 1 1 50%; }
+.box:hover > img {
+  width: 100%;
+  height: 100%;
