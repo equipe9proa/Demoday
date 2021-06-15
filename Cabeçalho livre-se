@@ -1,0 +1,26 @@
+	<div id= "menu">
+		<div class="container-fluid">
+			<div class="row">
+				<div class="col-md-1 ">
+					<a href="#" class=""><img class="py-1 mt-2 border border-0 bg-azulclaro rounded-circle mb-2 p-1" src="https://trello-attachments.s3.amazonaws.com/60953ec0195fca1de76d4b75/500x500/9a6436530120fd2de0f1d5c16431f101/Design_sem_nome.png"/></a>
+				</div>
+				<div class="col-md-11 py-2">
+					<ul>
+						<li><a href = "livrese.html" style= "font-size: 50px; color:#99ccff;">Livre-se</a></li>
+						<li><a href = "#">Livros</a></li>
+						<li><a href = "doadores.html">Doadores</a></li>
+						<li><a href = "estude+.html">Estude+</a></li>
+						<li><a href = "sobrenos.html">Sobre nós</a></li>
+						<li><a href = "ajuda.html">Ajuda</a></li>
+						<li><a href = "cadastrologin.html">Cadastro/Login</a></li>
+					</ul>
+					<div>
+						<form action="#" method="post" class="mx-auto text-center py-2">
+							<input class="buscar" type="text" name="search" placeholder="Faça a sua busca" >
+							<button type="submit"><id class="fas fa-search"></i></button>
+						</form>
+					</div>
+				</div>
+			</div> 
+		</div>
+	</div>
