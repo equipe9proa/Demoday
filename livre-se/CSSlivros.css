@@ -1,13 +1,22 @@
 .gallery {
-  border: 1px solid #ccc;
+  border: 1px solid #ED8545;
+  height: 100%;
+  margin-bottom: 15px;
+
 }
 .gallery:hover {
-  border: 1px solid #777;
+  border: 1px solid lightblue;
 }
 .gallery img {
   width: 100%;
   height: auto;
+  overflow: hidden;
 }
+.galeria1{
+  width: 100%;
+  height: 200px;
+}
+
 .desc {
   padding: 15px;
   text-align: center;
@@ -16,8 +25,8 @@
   padding: 0 6px;
   float: left;
   width: 16.66666%;
-  margin-top: 10px;
-  margin-bottom: 10px;
+  height: 16.66666%;
+  margin-top: 5px;
 }
 
 @media only screen and (max-width: 700px) {
